@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Top Sellers</h1>
+  <ul>
+    <li><a href="{% url 'product_detail' 1 %}">Product 1</a></li>
+    <li><a href="{% url 'product_detail' 2 %}">Product 2</a></li>
+    <li><a href="{% url 'product_detail' 3 %}">Product 3</a></li>
+    <li><a href="{% url 'product_detail' 4 %}">Product 4</a></li>
+    <li><a href="{% url 'product_detail' 5 %}">Product 5</a></li>
+  </ul>
+{% endblock %}
